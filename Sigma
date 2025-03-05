@@ -21,3 +21,15 @@ INSERT INTO Nazwa (imie, nazwisko, stanowisko, email, telefon, status_p) VALUES
 ('Magdalena', 'Dąbrowska', 8, 'magdalena.dabrowska@example.com', 666777888, 0),
 ('Marek', 'Zieliński', 9, 'marek.zielinski@example.com', 999888777, 1),
 ('Ewa', 'Szymańska', 10, 'ewa.szymanska@example.com', 222333444, 0);
+
+INSERT INTO Nazwa (nazwa) VALUES
+('Naprawa laptopa'),
+('Wymiana dysku twardego'),
+('Instalacja systemu operacyjnego'),
+('Czyszczenie z kurzu'),
+('Wymiana pasty termoprzewodzącej'),
+('Diagnostyka sprzętu'),
+('Naprawa płyty głównej'),
+('Konfiguracja sieci'),
+('Odzyskiwanie danych'),
+('Instalacja antywirusa');
