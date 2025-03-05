@@ -33,3 +33,15 @@ INSERT INTO Nazwa (nazwa) VALUES
 ('Konfiguracja sieci'),
 ('Odzyskiwanie danych'),
 ('Instalacja antywirusa');
+
+INSERT INTO Nazwa (nazwa) VALUES
+('Nowe'),
+('W trakcie'),
+('Oczekujące na części'),
+('Wstrzymane'),
+('Zakończone'),
+('Anulowane'),
+('Do weryfikacji'),
+('Przekazane do innego działu'),
+('Wymaga dodatkowej diagnostyki'),
+('Gotowe do odbioru');
