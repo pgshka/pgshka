@@ -9,3 +9,15 @@ INSERT INTO TYP (typ, nazwa, cena, odpowiedzialny, koszt, status_pracy, data_nap
 (6, 'Nazwa4', '99.99 zł', 1, 110, 1, '2023-04-25 17:30:00'),
 (9, 'Nazwa6', '220.50 zł', 3, 170, 0, '2023-08-14 10:05:00'),
 (10, 'Nazwa10', '499.00 zł', 5, 250, 1, '2023-12-01 23:59:00');
+
+INSERT INTO Nazwa (imie, nazwisko, stanowisko, email, telefon, status_p) VALUES
+('Jan', 'Kowalski', 1, 'jan.kowalski@example.com', 123456789, 1),
+('Anna', 'Nowak', 2, 'anna.nowak@example.com', 987654321, 0),
+('Piotr', 'Wiśniewski', 3, 'piotr.wisniewski@example.com', 555666777, 1),
+('Maria', 'Wójcik', 4, 'maria.wojcik@example.com', 111222333, 0),
+('Krzysztof', 'Kowalczyk', 5, 'krzysztof.kowalczyk@example.com', 444555666, 1),
+('Agnieszka', 'Kamińska', 6, 'agnieszka.kaminska@example.com', 777888999, 0),
+('Tomasz', 'Lewandowski', 7, 'tomasz.lewandowski@example.com', 333222111, 1),
+('Magdalena', 'Dąbrowska', 8, 'magdalena.dabrowska@example.com', 666777888, 0),
+('Marek', 'Zieliński', 9, 'marek.zielinski@example.com', 999888777, 1),
+('Ewa', 'Szymańska', 10, 'ewa.szymanska@example.com', 222333444, 0);
